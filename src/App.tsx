@@ -8,6 +8,8 @@ function App() {
   useEffect(()=>{
     fetchCryptos()
   }, [])
+
+  
   return (
     <>
       <div className="container">
